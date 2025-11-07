@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Design tokens for Tailwind v4 */
+@theme {
+  --color-primary-50:  #ecfeff;
+  --color-primary-100: #cffafe;
+  --color-primary-200: #a5f3fc;
+  --color-primary-300: #67e8f9;
+  --color-primary-400: #22d3ee;
+  --color-primary-500: #06b6d4;
+  --color-primary-600: #0ea5e9; /* action blue */
+  --color-primary-700: #0e7490; /* brand teal */
+  --color-primary-800: #155e75;
+  --color-primary-900: #0c4a6e;
+
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger:  #F43F5E;
+  --color-ink:     #0f172a;
+
+  --shadow-soft: 0 8px 24px rgba(2, 8, 23, 0.08);
+  --radius-xl2: 1.25rem;
+}
+
+/* App shell */
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+}
+html, body { height: 100%; }
+body { color: var(--fg); background: var(--bg); }
+
+/* Center the container utility like Tailwind v3's centered container */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
