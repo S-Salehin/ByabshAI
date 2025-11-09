@@ -1,0 +1,11 @@
+date,amount,cost,customer,invoice,status
+2025-10-10,1200,900,Alpha,INV-1001,paid
+2025-10-12,800,640,Alpha,INV-1002,paid
+2025-10-15,1500,1200,Beta,INV-1003,unpaid
+2025-10-18,900,720,Beta,INV-1004,paid
+2025-10-22,-400,0,Refund,INV-REF-1,paid
+2025-10-25,1800,1440,Alpha,INV-1005,paid
+2025-10-26,1800,1440,Alpha,INV-1005,paid
+2025-11-02,1400,1120,Gamma,INV-1006,unpaid
+2025-11-05,1100,880,Beta,INV-1007,paid
+2025-11-08,1700,1360,Alpha,INV-1008,paid
